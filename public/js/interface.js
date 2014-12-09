@@ -1,7 +1,16 @@
-$('p#1').focus()
-  .typetype("\n\nTIM SCULLY")
-	.fadeTo(4000,0.5)
-  
-$('p#2').focus().delay(3000)
-  .typetype("\n\nSIMPLE WEB DEVELOPMENT")
-  .fadeTo(400,0.5).delay(1000)
+$(document).ready(function() {
+
+	$('p#name').focus()
+	  .typetype("\nTIM SCULLY")
+		.fadeTo(4000,0.6)
+	  
+	$('p#dev').focus().delay(2500)
+	  .typetype("\nWEB DEVELOPMENT")
+	  .fadeTo(400,0.6).delay(1000)
+
+	$('p#made').focus().delay(5000)
+	  .typetype("\nMADE SIMPLE")
+	  .fadeTo(400,0.6).delay(1000)
+
+});
+       
