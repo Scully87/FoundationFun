@@ -1,5 +1,5 @@
 body {
-	background-color: #21dede;
+	background-color: #4982DE;
 	color: white;
 	font-family: 'Boogaloo', cursive;
 	margin: 0;
@@ -46,54 +46,6 @@ nav {
 	padding-bottom: 5%;
 }
 
-/*@media (max-width:663px){
-	.content {
-		font-size: 400%;
-	}
-}
-
-@media (max-width:500px){
-	.content {
-		font-size: 300%;
-	}
-
-}
-
-@media (max-height:640px){
-	.content {
-		font-size: 450%;
-	}
-}
-
-@media (max-height:500px) {
-	.content {
-		font-size: 400%;
-	}
-}
-
-@media (max-height:450px) {
-	.content {
-		font-size: 350%;
-	}
-}
-
-@media (max-height:340px) {
-	.content {
-		font-size: 320%;
-	}
-}*/
-
-@media (max-height:300px) {
-	p#made {
-		display: none;
-	}
-}
-
-@media (max-height:250px) {
-	p#dev {
-		display: none;
-	}
-}
 .footer {
 	text-align: center;
 	/*clear: both;*/
@@ -160,12 +112,3 @@ a:hover {
 a:visited {
 	text-decoration: none;
 };
-
-
-/*@media only screen and (min-width:374px) and (max-height:666px){
-
-	.content { 
-		font-size: 500%;
-	}
-
-}*/
