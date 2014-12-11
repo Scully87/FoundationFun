@@ -11,6 +11,5 @@ $(document).ready(function() {
 	$('p#made').focus().delay(5000)
 	  .typetype("\nMADE SIMPLE")
 	  .fadeTo(400,0.6).delay(1000)
-
 });
        

@@ -123,14 +123,7 @@ a:visited {
   transform-style: preserve-3d;
   -webkit-transform-origin-x: 50%;
 }
- 
-/* ====================================
- * adjector.css
- * ====================================
- * Copyright 2014 Arsh Shah Dilbagi.
- * http://robo.im
- *
- * ================================= */
+
 .adjecting {
   display: inline-block;
   position: relative;
@@ -168,7 +161,7 @@ a:visited {
   text-align: center;
 }
 
-#robo-wrapper h1 {
+#robo-wrapper {
   font-size: 100px;
   font-weight: 900;
   text-transform: uppercase;
@@ -194,8 +187,13 @@ a:visited {
 
 .paragraph-content #sub {
   width: 70%;
-  height: 300px;
+  height: 200px;
   margin: 0 auto;
   font-size: 50%;
-  text-align: justify;
+  text-align: center;
+}
+
+#html {
+	height: 50px;
+	width: 50px;
 }
