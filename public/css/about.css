@@ -1,17 +1,36 @@
+html {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
 body {
+	height:100%;
+	width: 100%;
 	background-color: #E339B6;
 	color: white;
 	font-family: 'Boogaloo', cursive;
 	margin: 0;
 	padding: 0;
+	position: relative;
 	-webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  z-index: -1;
 }
+
+.container {
+   height: 90%;
+   width: 90%;
+   margin-top: 2%;
+   margin-left: auto;
+   margin-right: auto;
+   position:relative;
+   /*border: solid 2px white;*/
+}
+
 .header {
 	height: 10%;
 	width: 100%;
@@ -30,7 +49,7 @@ nav {
 
 .main {
 	position: relative;
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
 }
 
@@ -39,20 +58,16 @@ nav {
 }
 
 .content {
-/*	-webkit-text-stroke-width: 0.01px;
-	-webkit-text-stroke-color: #000000;*/
-	position: relative;
-	/*padding-top: 5%;*/
 	font-size: 500%;
 	text-align: center;
-	padding-bottom: 5%;
+	/*border: white solid 2px;*/
+	position: relative;
 }
 
 .footer {
-	text-align: center;
-	/*clear: both;*/
-	bottom: 10;
 	position: absolute;
+  bottom:10;
+	text-align: center;
 	width:100%;
 	font-size: 120%;
 }
@@ -61,28 +76,6 @@ nav {
 	display: inline-block;
 	font-size: 110%;
 	height: 15%;
-}
-
-#twitter {
-	display: none;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	background-color: white;
-}
-
-#linkedin {
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	background-color: white;
-}
-
-#github {
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	background-color: white;
 }
 
 p {
@@ -154,32 +147,6 @@ a:visited {
   position: relative;
 }
 
-/* ======================================================
- * CSS for Demo pages only - Not required with the plugin
- * =================================================== */
-#robo-wrapper {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-#robo-wrapper {
-  font-size: 100px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-#robo-wrapper #option-details {
-  display: inline-block;
-  font-size: 18px;
-  padding: 2px 7px;
-  margin-bottom: 20px;
-  background: rgba(255, 255, 255, 0.08);
-  font-family: monospace;
-  border-left: 3px solid #fff;
-  border-right: 3px solid #fff;
-}
-
 .paragraph-content #heading {
   margin: 0 auto;
   font-size: 100%;
@@ -189,48 +156,43 @@ a:visited {
 
 .paragraph-content #sub {
   width: 70%;
-  height: 140px;
+  height: 17%;
   margin: 0 auto;
   font-size: 50%;
   text-align: center;
 }
 
-.cycle-slideshow {
-	margin-left: 38%;
-	/*margin-right: auto;*/
-	position: center;
-}
-
-#html {
-	width: 250px;
-	height: 250px;
-	margin-bottom: 10%;
-}
-
-#css {
-	margin-left: 6%;
-	width: 170px;
-	height: 230px;
-}
-
-#jquery {
-	margin-left: 2%;
-	width: 225px;
-	height: 225px;
+.img {
+	padding-left: 25%;
+	height: auto;
+	width: auto;
+	max-width:200%;
+	max-height:200%;
+	/*border: solid white 2px;*/
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #dev {
-	width: 305px;
-	height: 225px;
+	padding: 0;
+}
+
+.image-contain {
+	position: relative;
+	height: 40%;
+	width: 33.3%;
+	/*border: solid white 2px;*/
+	margin-left: 33.3%;
+	margin-right: 33.3%;
 }
 
 .cycle-slideshow { 
-    -webkit-perspective: 1000000;
-    -webkit-transform-style: preserve-4d;
-    -moz-perspective: 1000000;
-    -moz-transform-style: preserve-4d;
-    -o-perspective: 1000000;
-    -o-transform-style: preserve-4d;
-    perspective: 1000000;
-    transform-style: preserve-4d;  
+  -webkit-perspective: 1000000;
+  -webkit-transform-style: preserve-4d;
+  -moz-perspective: 1000000;
+  -moz-transform-style: preserve-4d;
+  -o-perspective: 1000000;
+  -o-transform-style: preserve-4d;
+  perspective: 1000000;
+  transform-style: preserve-4d;  
 }

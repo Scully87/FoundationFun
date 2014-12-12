@@ -1,7 +1,7 @@
 <head>
 	<link rel="stylesheet" type="text/javascript" href="./css/about.css">
 </head>
-<body>
+<section class="container"> 
 	<section class="header">
 	<a href="/" id="logo">HOME</a>
 	<nav>
@@ -14,7 +14,6 @@
 </section>
 <section class="main">
 	<section class="content">
-		<section class="container">  	
 				<section id="robo-wrapper" class="paragraph-content">
       		<section id="heading" class="contain"><span class="adject">I'M A </span> <span class="adject"> WEB DEVELOPER| HTML5 GURU| CSS3 ADDICT| JQUERY JUNKIE</span></section>
 	      </section>
@@ -33,14 +32,15 @@
         	</section>
       	</section>
 		</section>
-		<section class="cycle-slideshow" data-cycle-fx=flipHorz data-cycle-timeout=4700>
-	    <img id="dev" src="/images/dev.png">
-	    <img id="html" src="/images/html.png">
-	    <img id="css" src="/images/css.png">
-	    <img id="jquery" src="/images/jquery.png">
-		</section>
+			<section class= "image-contain">
+				<section class="cycle-slideshow" data-cycle-fx=flipHorz data-cycle-timeout=4800>
+			    <img id="dev" class="img" src="/images/rsz_dev.png">
+			    <img id="html" class="img" src="/images/rsz_html.png">
+			    <img id="css" class="img" src="/images/rsz_css.png">
+			    <img id="jquery" class="img" src="/images/rsz_jquery.png">
+				</section>
+	    </section>
 	</section>
-</section>
 <section class="footer">
 	<ul>
 		<li><a href="https://twitter.com/TScully87">TWITTER</a></li> /
@@ -54,10 +54,10 @@
       			$(".contain .adject").adjector({
         			sep: "|",
         			stay: 4000,
-        			trans: 900,
-        			arm: -600
+        			trans: 1000,
+        			arm: 0
       			});
 			});
 	</script>
 		<script type="text/javascript" src="./js/adjector.js"></script>
-</body>
+</section>
