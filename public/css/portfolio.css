@@ -46,6 +46,7 @@ nav {
 
 .main {
 	position: relative;
+	padding-top: 5%;
 	height: 100%;
 	width: 100%;
 }
@@ -55,7 +56,7 @@ nav {
 }
 
 .content {
-	position: relative;
+	/*position: relative;*/
 	padding-top: 5%;
 	font-size: 500%;
 	text-align: center;
@@ -128,3 +129,12 @@ a:hover {
 a:visited {
 	text-decoration: none;
 };
+
+#carousel {
+  display: relative;
+}
+
+#carousel img {
+  display: hidden; /* hide images until carousel prepares them */
+  cursor: pointer; /* not needed if you wrap carousel items in links */
+}

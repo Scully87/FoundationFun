@@ -13,8 +13,12 @@
 	</nav>
 </section>
 <section class="main">
-	<section class="content">
-			<p id="name">THIS PAGE IS UNDER CONSTRUCTION</p>
+	<section id="carousel">
+		<a href="http://onnie-scully.herokuapp.com"><img src="/images/mum1.png" alt="Image 1" /></a>
+		<img src="/images/rsz_dev.png" alt="Image 2" />
+		<img src="/images/rsz_html.png" alt="Image 3" />
+		<img src="/images/rsz_jquery.png" alt="Image 4" />
+		<img src="/images/rsz_css.png" alt="Image 5" />
 	</section>
 </section>
 <section class="footer">
@@ -26,3 +30,12 @@
 	<p>copyright &copy; Tim Scully 2014</p>
 	</section>
 </section>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#carousel").waterwheelCarousel({
+      speed: 1000,
+      autoPlay: 5000,
+      keyboardNav: true,
+    });
+  });
+</script>

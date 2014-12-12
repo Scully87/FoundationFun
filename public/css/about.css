@@ -180,10 +180,10 @@ a:visited {
 .image-contain {
 	position: relative;
 	height: 40%;
-	width: 33.3%;
+	width: 34%;
 	/*border: solid white 2px;*/
-	margin-left: 33.3%;
-	margin-right: 33.3%;
+	margin-left: 33%;
+	margin-right: 33%;
 }
 
 .cycle-slideshow { 
