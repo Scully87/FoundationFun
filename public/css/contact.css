@@ -1,16 +1,16 @@
 html {
-   margin:0;
-   padding:0;
-   height:100%;
-   width: 100%;
+  margin:0;
+  padding:0;
+  height:100%;
+  width: 100%;
 }
 .container {
-   height: 90%;
-   width: 90%;
-   margin-top: 2%;
-   margin-left: auto;
-   margin-right: auto;
-   position:relative;
+  height: 90%;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
    /*border: solid 2px white;*/
 }
 
@@ -56,15 +56,15 @@ nav {
 
 .content {
 	position: relative;
-	padding-top: 5%;
+	/*padding-top: 5%;*/
 	font-size: 250%;
 	text-align: center;
-	padding-bottom: 5%;
+	/*padding-bottom: 5%;*/
 }
 
 .footer {
 	text-align: center;
-	/*clear: both;*/
+	clear: both;
 	bottom: 10;
 	position: absolute;
 	width:100%;
@@ -77,24 +77,33 @@ nav {
 	height: 15%;
 }
 
+.images ul li {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	display: absolute;
+	width: 100%;
+}
+
 #twitter {
-	display: none;
-	height: 50px;
-	width: 50px;
+	/*display: none;*/
+	height: 350px;
+	width: 350px;
 	border-radius: 50%;
 	background-color: white;
+	z-index: 99;
 }
 
 #linkedin {
-	height: 50px;
-	width: 50px;
+	height: 350px;
+	width: 350px;
 	border-radius: 50%;
 	background-color: white;
 }
 
 #github {
-	height: 50px;
-	width: 50px;
+	height: 350px;
+	width: 350px;
 	border-radius: 50%;
 	background-color: white;
 }
