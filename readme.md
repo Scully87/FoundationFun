@@ -16,3 +16,5 @@ A link to the re-worked website after implementing [Foundation](http://foundatio
   - JQuery
   - CSS3
   - Heroku
+  - TypeType Plugin
+  - Adjector Plugin
