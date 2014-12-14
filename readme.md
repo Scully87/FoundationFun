@@ -4,7 +4,7 @@ Tim Scully
 ####The original version of a simple personal site with a few links to my conact details and a small 'about me'.
 
 #####
-A link to the re-worked website after implementing [Foundation](http://foundation.zurb.com)
+Below is a link to the re-worked website after implementing [Foundation](http://foundation.zurb.com)
 
 ####Link to Site: [Tim Scully](http://timscully.com)
 
