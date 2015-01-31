@@ -6,7 +6,7 @@ Tim Scully
 #####
 Below is a link to the re-worked website after implementing [Foundation](http://foundation.zurb.com)
 
-####Link to Site: [Tim Scully](http://timscully.com)
+####Link to Site: [Tim Scully](http://timscully.co.uk)
 
 #####Technologies Used:
 
